@@ -1,45 +1,120 @@
-var collections = [
+// 
+
+var products = [
     {
-        id: 511,
-        firstName: "Caps",
-        items: [
-            { price: 250, color: "black", quantity: 210 },
-            { price: 380, color: "white", quantity: 460 },
-            { price: 600, color: "Blue and white", quantity: 160 },
-            { price: 110, color: "black and white", quantity: 300 },
-        ]
+        id: 101,
+        title: "Sony LED 40 inch",
+        variations: [
+            { id: 1, color: "black", price: 50000, quantity: 5 },
+            { id: 2, color: "red", price: 50000, quantity: 1 },
+            { id: 3, color: "silver", price: 55000, quantity: 8 },
+        ],
+        reviews: [
+            {
+                id: 1,
+                user: "Ahmad",
+                rating: 4.0,
+                title: "Good Product",
+                comments: "It is a very good product ....",
+                date: "06-02-2021",
+                status: true,
+            },
+            {
+                id: 2,
+                user: "Zubair",
+                rating: 4.5,
+                title: "Very Good Product",
+                comments: "zubair It is a very good product ....",
+                date: "05-02-2021",
+                status: false,
+            },
+            {
+                id: 3,
+                user: "Ali",
+                rating: 5.0,
+                title: "bad Product",
+                comments: "ali It is a very good product ....",
+                date: "04-02-2021",
+                status: true,
+            },
+        ],
     },
     {
-        id: 512,
-        firstName: "shoes",
-        items: [
-            { price: 1800, color: "green", quantity: 110 },
-            { price: 5800, color: "red", quantity: 250 },
-            { price: 3500, color: "black", quantity: 270 },
-            { price: 2500, color: "white", quantity: 100 },
-        ]
+        id: 102,
+        title: "Mobile",
+        variations: [
+            { id: 1, color: "black", price: 50000, quantity: 5 },
+            { id: 2, color: "red", price: 50000, quantity: 1 },
+            { id: 3, color: "silver", price: 55000, quantity: 8 },
+        ],
+        reviews: [
+            {
+                id: 1,
+                user: "Ahmad",
+                rating: 4.0,
+                title: "Good Product",
+                comments: "It is a very good product ....",
+                date: "06-02-2021",
+                status: true,
+            },
+            {
+                id: 2,
+                user: "Zubair",
+                rating: 4.5,
+                title: "Very Good Product",
+                comments: "zubair It is a very good product ....",
+                date: "05-02-2021",
+                status: false,
+            },
+            {
+                id: 3,
+                user: "Ali",
+                rating: 5.0,
+                title: "bad Product",
+                comments: "ali It is a very good product ....",
+                date: "04-02-2021",
+                status: true,
+            },
+        ],
     },
     {
-        id: 513,
-        firstName: "watch",
-        items: [
-            { price: 8000, color: "golden", quantity: 200 },
-            { price: 13000, color: "silver", quantity: 560 },
-            { price: 6500, color: "white", quantity: 330 },
-            { price: 10000, color: "black", quantity: 800 },
-        ]
-    }
+        id: 103,
+        title: "Bike",
+        variations: [
+            { id: 1, color: "black", price: 55000, quantity: 5 },
+            { id: 2, color: "red", price: 50000, quantity: 1 },
+            { id: 1, color: "black", price: 55000, quantity: 5 },
+        ],
+        reviews: [
+            {
+                id: 1,
+                user: "Ahmad",
+                rating: 4.0,
+                title: "Good Product",
+                comments: "It is a very good product ....",
+                date: "06-02-2021",
+                status: true,
+            },
+            {
+                id: 2,
+                user: "Zubair",
+                rating: 3.0,
+                title: "Very Good Product",
+                comments: "zubair It is a very good product ....",
+                date: "05-02-2021",
+                status: false,
+            },
+        ],
+    },
 ]
-
-for (let farooq = 0; farooq < collections.length; farooq++) {
+for (var j = 0; j < products.length; j++) {
+    var product = products[j];
     var sum = 0;
-    var index = farooq;
-
-    for (let i = 0; i < collections[index].items.length; i++) {
-        sum = sum + collections[index].items[i].quantity
+    for (var i = 0; i < product.reviews.length; i++) {
+        sum = sum + product.reviews[i].rating;
     }
 
-    var avg = sum / collections[index].items.length
+    var avgRating = sum / product.reviews.length;
 
-    console.log("collections " + collections[index].firstName + " = " + sum + " (" + avg + ")");
+    console.log("Product " + product.id + " = " + avgRating + "(" + product.reviews.length + ")");
 }
