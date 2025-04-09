@@ -122,46 +122,64 @@
 //---------/
 
 
-var students = [
-    {
-        name: "farooq",
-        idNumber: 278268,
-        subject: "Maths",
-        marks: 25,
-        present: true,
-    },
-    {
-        name: "ali",
-        idNumber: 245668,
-        subject: "Urdu",
-        marks: 25,
-        present: false,
-    },
-    {
-        name: "umer",
-        idNumber: 277668,
-        subject: "English",
-        marks: 25,
-        present: true,
-    },
-    {
-        name: "maaz",
-        idNumber: 273548,
-        subject: "Science",
-        marks: 215,
-        present: false,
-    }
-]
-// console.log(students[0].name)
-// console.log(students[0].idNumber)
-// console.log(students[0].subject)
-// console.log(students[0].marks)
-// console.log(students[0].present)
+// var students = [
+//     {
+//         name: "farooq",
+//         idNumber: 278268,
+//         subject: "Maths",
+//         marks: 25,
+//         present: true,
+//     },
+//     {
+//         name: "ali",
+//         idNumber: 245668,
+//         subject: "Urdu",
+//         marks: 25,
+//         present: false,
+//     },
+//     {
+//         name: "umer",
+//         idNumber: 277668,
+//         subject: "English",
+//         marks: 25,
+//         present: true,
+//     },
+//     {
+//         name: "maaz",
+//         idNumber: 273548,
+//         subject: "Science",
+//         marks: 215,
+//         present: false,
+//     }
+// ]
+// // console.log(students[0].name)
+// // console.log(students[0].idNumber)
+// // console.log(students[0].subject)
+// // console.log(students[0].marks)
+// // console.log(students[0].present)
 
-var sum = 0
-for (var i = 0; i < students.length; i++) {
-    sum = sum + students[i].marks
-}
-// console.log(sum)
-var avg = sum / students.length
-console.log("Avg is ", avg,"=","Sum is",sum)
+// var sum = 0
+// for (var i = 0; i < students.length; i++) {
+//     sum = sum + students[i].marks
+// }
+// // console.log(sum)
+// var avg = sum / students.length
+// console.log("Avg is ", avg,"=","Sum is",sum)
+
+
+
+
+//----------/
+
+let farooq = document.getElementsByClassName ("boxs")
+console.log(farooq)
+
+farooq[2].style.backgroundColor = "red"
+
+let umer=document.getElementsByClassName("box")
+console.log(umer)
+umer [2].style.backgroundColor = "blue"
+
+document.getElementById("home").style.backgroundColor = "pink"
+
+//-------/
