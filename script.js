@@ -182,4 +182,4 @@ umer [2].style.backgroundColor = "blue"
 
 document.getElementById("home").style.backgroundColor = "pink"
 
-//-------/
+//-------/l
