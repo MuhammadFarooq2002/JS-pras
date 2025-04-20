@@ -1,4 +1,4 @@
-// // 
+// //
 
 // var products = [
 //     {
@@ -164,10 +164,164 @@
 // }
 // // console.log(sum)
 // var avg = sum / students.length
-// console.log("Avg is ", avg,"=","Sum is",sum)
+// console.log("Avg is ", avg,"=","Sum is",sum);
+
+// ------------/
+//----------/
+
+// let farooq = document.getElementsByClassName ("boxs")
+// console.log(farooq)
+
+// farooq[2].style.backgroundColor = "red"
+
+// let umer=document.getElementsByClassName("box")
+// console.log(umer)
+// umer [2].style.backgroundColor = "blue"
+
+// document.getElementById("home").style.backgroundColor = "pink"
+
+// let boxes = document.getElementsByClassName("box-1")
+// console.log(boxes)
+
+// boxes [2].style .backgroundColor="yellow"
+
+// //-------/
+// Squre root qus------
+
+// var squre = prompt('Plase enter a number');
+
+// var a = Math.sqrt(squre);
+
+// console.log(a);
+
+//-----/
+
+// This is a dynamic number/
+
+// var a = prompt('Plesa Enter first number')
+// var b = prompt('Plesa Enter secend number')
+
+// var c = parseInt(a) + parseInt(b);
+// console.log("The Sum is "+ c);
+
+// ---------/
+
+//This is static number/
+
+// var a = 3
+// var b = 4
+
+// var c = a + b;
+
+// console.log("The Sum is "+ c)
+
+// -------/
+
+// ------------/
+
+// ------gi folder------/
+
+// var a = prompt("Place Enter Your Percentage");
+
+// if (a >= 80 && a <= 100) {
+//     alert("top")
+// } else if (a >= 60 && a <= 80) {
+//     alert("First")
+// } else if (a >= 40 && a <= 60) {
+//     alert("2nd")
+// } else if (a >= 20 && a <= 40) {
+//     alert("3rd")
+// } else if (a <= 20) {
+//     alert("fail")
+// } else {
+//     alert("Place Vilad Percentage")
+// }
+
+// var a = "20";
+// var b = 20;
+
+// if (a === b) {
+//     console.log("Ok this is right");
+// }else{
+//     console.log("This is not right");
+// }
+
+// conditional (ternary operator)......../
+
+// var a = 30;
+// var b =
+// b = (a >= 10 ? "ture" : "false");
+// console.log(b);
+
+// alert box ..../
+
+// alert ("welcome to my website")
+
+// var a = 30;
+// var b = 40;
+
+// if (a >= b){
+//     alert ("ture");
+// }else{
+//     alert ("false");
+// }
+
+// comfirm box....../
+
+// var a = confirm("do you like my website ?");
+
+
+// if(a){
+//     alert ("ture");
+// }else{
+//     alert("false")
+// }
+
+// functions...../
+
+// function firstName (){
+//     console.log("farooq");
+// }
+
+// function game (){
+// console.log("mhuhammad farooq")
+// }
+
+// firstName();
+// game();
+// game();
+// firstName();
+
+// function paramcters.../
+// Ek hi function ko bar bar alag tarika sa used karna ka lia
+
+// function firstName(fname, lname) {
+//     console.log(fname + lname)
+// }
+// function sum(fname, lname) {
+//     console.log(fname + lname)
+// }
+
+// firstName("farooq", "umer");
+// firstName("Muhammad", "farooq");
+// sum(30, 20)
+// sum(30.10,40)
+// sum(30.10,80)
+// firstName("maaz", "ali");
 
 
 
+// function a (farooqName, umerName) {
+//     console.log(farooqName + umerName)
+// }
+
+// a("i am ","farooq");
+// a("i am ","23 year old");
+// a("i am ","Beginner developer");
+// a("i am ","Memon");
+
+
+//----------/
 
 //----------/
 
@@ -182,20 +336,7 @@
 
 // document.getElementById("home").style.backgroundColor = "pink"
 
-//-------/
-
-
-
-
-
-
-
-
-
-
-
-
-// ------/ 
+// ------/
 
 // Write a JavaScript function to find the largest of three numbers: a = 10, b = 25, c = 15.
 
@@ -389,3 +530,31 @@
 //         console.log(input[i]);
 // }
 // reverString("SoftwareDevelopment");
+
+
+// ------- /
+// function studentResult(num) {
+//     if (num >= 80 && num <= 100) {
+//         return "A Gread";
+//     }
+//     else if (num >= 60 && num <= 80) {
+//         return "B Gread";
+//     }
+//     else if (num >= 33 && num <= 60) {
+//         return "C Gread";
+//     }
+//     else if(num <= 33) {
+//         return "Failed";
+//     }
+// }
+// console.log(studentResult(70));
+
+// -------- /
+
+
+var a = 20;
+var b = 30;
+var x = 40;
+
+c = a+b+x;
+console.log(c);
