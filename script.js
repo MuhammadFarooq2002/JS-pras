@@ -552,9 +552,83 @@
 // -------- /
 
 
-var a = 20;
-var b = 30;
-var x = 40;
+// function gradeSystem() {
+//     var a = prompt("Enter Your Marks")
+//     if (a > 100) {
+//         return "This is not Eligible"
+//     }
+//     else if (a >= 90 && a <= 100) {
+//         return "A Grade";
+//     }
+//     else if (a >= 80 && a <= 89) {
+//         return "B Grade";
+//     }
+//     else if (a >= 70 && a <= 79) {
+//         return "C Grade";
+//     }
+//     else if (a >= 60 && a <= 69) {
+//         return "D Grade";
+//     }
+//     else if (a <= 60 && a >= 33) {
+//         return "Very Bad";
+//     }
+//     else if (a < 33) {
+//         return "Failed"
+//     }
+// }
+// console.log(gradeSystem());
 
-c = a+b+x;
-console.log(c);
+// -------- /
+
+// Q Write a JavaScript program that accept two integers and
+//   display the larger. Also show if the two integers are equal.
+
+// function twoNumAdd(a, b) {
+//     if(a > b){
+//         return (`The Larger number is : ${a}`);
+//     }
+//     else if(b > a){
+//         return (`The Larger Number is : ${b}`);
+//     }
+//     else{
+//         return (`Both Number is equal`);
+//     }
+// }
+// console.log(twoNumAdd(70, 70));
+
+// -------- /
+
+// Q Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero.
+
+
+// function ckeckWhether() {
+//     let a = prompt ("Check a Whether");
+//     if(a > 0){
+//         return "Positive";
+//     }
+//     else if(a < 0){
+//         return "Negative";
+//     }
+//     else{
+//         return "Zero"
+//     }
+// }
+// console.log(ckeckWhether());
+
+// -------- /
+
+// Q This if/else statement does not work. Try to fix it:
+function problemSovled() {
+
+    var greeting;
+    var hour = 13;
+    if (hour > 18) {
+        greeting = "Good day";
+    }
+    else {
+        greeting = "Good evening";
+    }
+}
+console.log(problemSovled());
+
