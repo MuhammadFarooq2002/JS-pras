@@ -619,16 +619,100 @@
 // -------- /
 
 // Q This if/else statement does not work. Try to fix it:
-function problemSovled() {
+// function problemSovled() {
 
-    var greeting;
-    var hour = 13;
-    if (hour > 18) {
-        greeting = "Good day";
+//     var greeting;
+//     var hour = 13;
+//     if (hour > 18) {
+//         greeting = "Good day";
+//     }
+//     else {
+//         greeting = "Good evening";
+//     }
+// }
+// console.log(problemSovled());
+
+// -------- /
+
+// Q  Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then
+// give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are
+// same, show message “Correct! The password you
+// entered matches the original password”. Show
+// “Incorrect password” otherwise.
+
+
+// function checkPassword(num) {
+//     let userPassword = "Farooq123"
+//     if (num === userPassword) {
+//         return "Correct ! Password"
+//     }else{
+//         return "Sorry ! Incorrect Password"
+//     }
+// }
+// console.log(checkPassword("Farooq123"));
+
+
+// -------- /
+
+// Q Declare an empty array using JS literal notation to store
+// student names in future.
+
+// let arr = ["Farooq","Umer","maaz"];
+
+// arr .push("ali","Ahmed");
+
+// console.log(arr[3]);
+
+// -------- /
+
+// Q  Declare an empty array using JS object notation to store
+// student names in future.
+
+
+let studenArr = [
+    {
+        name: "Umer",
+        marks: 98,
+        present: true,
+        subject: {
+            monday: "English",
+            Tuesday : "Science",
+            Wednesday: "chemistry",
+
+        }
+    },
+    {
+        name: "Farooq",
+        marks: 68,
+        present: true,
+        subject: {
+            monday: "Urdu",
+            Tuesday : "Maths",
+            Wednesday: "Physice",
+
+        }
+    },
+    {
+        name: "ali",
+        marks: 38,
+        present: false,
+        subject: {
+            monday: "Islamiat",
+            Tuesday: "Sindhi",
+            Wednesday : "Biology",
+
+        }
     }
-    else {
-        greeting = "Good evening";
-    }
+]
+let sum = 0 ;
+for (let i = 0; i < studenArr.length; i++) {
+    sum += studenArr[i].marks;
+    var avg = sum / studenArr[i].length
 }
-console.log(problemSovled());
-
+console.log(sum);
+console.log(avg);
