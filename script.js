@@ -674,45 +674,73 @@
 // student names in future.
 
 
-let studenArr = [
-    {
-        name: "Umer",
-        marks: 98,
-        present: true,
-        subject: {
-            monday: "English",
-            Tuesday : "Science",
-            Wednesday: "chemistry",
+// let studenArr = [
+//     {
+//         name: "Umer",
+//         marks: 98,
+//         present: true,
+//         subject: {
+//             monday: "English",
+//             Tuesday : "Science",
+//             Wednesday: "chemistry",
 
-        }
-    },
-    {
-        name: "Farooq",
-        marks: 68,
-        present: true,
-        subject: {
-            monday: "Urdu",
-            Tuesday : "Maths",
-            Wednesday: "Physice",
+//         }
+//     },
+//     {
+//         name: "Farooq",
+//         marks: 68,
+//         present: true,
+//         subject: {
+//             monday: "Urdu",
+//             Tuesday : "Maths",
+//             Wednesday: "Physice",
 
-        }
-    },
-    {
-        name: "ali",
-        marks: 38,
-        present: false,
-        subject: {
-            monday: "Islamiat",
-            Tuesday: "Sindhi",
-            Wednesday : "Biology",
+//         }
+//     },
+//     {
+//         name: "ali",
+//         marks: 38,
+//         present: false,
+//         subject: {
+//             monday: "Islamiat",
+//             Tuesday: "Sindhi",
+//             Wednesday : "Biology",
 
-        }
+//         }
+//     }
+// ]
+// let sum = 0 ;
+// for (let i = 0; i < studenArr.length; i++) {
+//     sum += studenArr[i].marks;
+//     var avg = sum / studenArr[i].length
+// }
+// console.log(sum);
+// console.log(avg);
+
+// --------- /
+
+// Q Revers A String;
+
+// function revers(num) {
+//     let result = "";
+//     for(let i = num.length - 1; i >= 0; i--){
+//         result += num[i];
+//     }
+//     return result;
+    
+// }
+// console.log(`The Answer is ${revers("Umer")}`); 
+
+// --------------/
+
+// Q Control a Factorial Number
+
+function facNum(input) {
+    let result = 1;
+    for(let i = 1 ; i <= input; i++){
+        result *= i;
     }
-]
-let sum = 0 ;
-for (let i = 0; i < studenArr.length; i++) {
-    sum += studenArr[i].marks;
-    var avg = sum / studenArr[i].length
+   return result;
+    
 }
-console.log(sum);
-console.log(avg);
+console.log(facNum(4));
