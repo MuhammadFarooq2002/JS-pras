@@ -735,12 +735,12 @@
 
 // Q Control a Factorial Number
 
-function facNum(input) {
-    let result = 1;
-    for(let i = 1 ; i <= input; i++){
-        result *= i;
-    }
-   return result;
+// function facNum(input) {
+//     let result = 1;
+//     for(let i = 1 ; i <= input; i++){
+//         result *= i;
+//     }
+//    return result;
     
-}
-console.log(facNum(4));
+// }
+// console.log(facNum(4));
