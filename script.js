@@ -727,9 +727,9 @@
 //         result += num[i];
 //     }
 //     return result;
-    
+
 // }
-// console.log(`The Answer is ${revers("Umer")}`); 
+// console.log(`The Answer is ${revers("Umer")}`);
 
 // --------------/
 
@@ -741,6 +741,66 @@
 //         result *= i;
 //     }
 //    return result;
-    
+
 // }
 // console.log(facNum(4));
+
+
+// function gradeSystem(input) {
+//     if (input > 100) {
+//         return "This is not Eligible"
+//     }
+//     else if(input >= 90 && input <= 100) {
+//         return "A Grade";
+//     }
+//     else if (input >= 80 && input <= 89) {
+//         return "B Grade";
+//     }
+//     else if (input >= 70 && input <= 79) {
+//         return "C Grade";
+//     }
+//     else if (input >= 60 && input <= 69) {
+//         return "D Grade";
+//     }
+//     else if (input <= 60 && input >= 33) {
+//         return "Very Bad";
+//     }
+//     else if (input < 33) {
+//         return "Failed"
+//     }
+// }
+// console.log(gradeSystem(30))
+
+// Q What is leap year ! return True or False:
+
+// function leapYear(num){
+//     if (num % 4 === 0) {
+//         return true;
+//     } {
+//         return false;
+//     }
+// }
+// console.log(leapYear(2024));
+// console.log(leapYear(2023)); 
+
+// Q: Calculate and print the sum of the digits of a given number:
+
+function calculatarNumber(input) {
+    if (input < 0) {
+        throw new Error("Please Enter A Postive Number")
+    }
+    let inputString = input.toString();
+    // console.log(inputString);
+    let inputArray = inputString.split();
+    // console.log(inputArray);
+    let sum = 0;
+    inputArray.forEach(num => {
+        // console.log(parseInt(num));
+        sum += parseInt(num)
+
+    });
+    return sum;
+}
+console.log(calculatarNumber(21));
+
+
