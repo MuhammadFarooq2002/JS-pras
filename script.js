@@ -785,22 +785,47 @@
 
 // Q: Calculate and print the sum of the digits of a given number:
 
-function calculatarNumber(input) {
-    if (input < 0) {
-        throw new Error("Please Enter A Postive Number")
-    }
-    let inputString = input.toString();
-    // console.log(inputString);
-    let inputArray = inputString.split();
-    // console.log(inputArray);
-    let sum = 0;
-    inputArray.forEach(num => {
-        // console.log(parseInt(num));
-        sum += parseInt(num)
+// function calculatarNumber(input) {
+//     if (input < 0) {
+//         throw new Error("Please Enter A Postive Number")
+//     }
+//     let inputString = input.toString();
 
-    });
-    return sum;
-}
-console.log(calculatarNumber(21));
+//     let inputArray = inputString.split();
+
+//     let sum = 0;
+//     inputArray.forEach(num => {
+//         sum += parseInt(num)
+//     });
+//     return sum;
+// }
+// console.log(calculatarNumber(21));
+
+// let a = 586;
+// let b = a.toString()
+// console.log(b);
+
+// const person1 = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "blue"
+// };
+
+// const person2 = { firstName: "Anne", lastName: "Smith" };
+
+// Object.assign(person1, person2);
+
+// console.log(person1, person2);
+
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+let a = fruits[0]= "kiwi";
+
+console.log (fruits, a);
+
+
+
 
 
