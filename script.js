@@ -781,7 +781,7 @@
 //     }
 // }
 // console.log(leapYear(2024));
-// console.log(leapYear(2023)); 
+// console.log(leapYear(2023));
 
 // Q: Calculate and print the sum of the digits of a given number:
 
@@ -819,12 +819,71 @@
 // console.log(person1, person2);
 
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-let a = fruits[0]= "kiwi";
+// let a = fruits[0]= "kiwi";
 
-console.log (fruits, a);
+// console.log (fruits, a);
 
+
+// let add = (name) => {
+//     console.log("Hello " + name);
+// }
+// add("Farooq")
+// add("Umer")
+// add("Umer,Farooq")
+
+
+// Nested Function /
+
+// function fullName(firstName, lastName) {
+//     function combin() {
+//         return firstName + " " + lastName
+//     }
+//     return combin()
+// }
+
+// console.log(fullName("Muhammad", "Farooq"));
+
+// Nseted Arrow Function /
+
+// let fulName = (firstName, lastName) => {
+//     let combin = () => {
+//         return firstName + " " + lastName
+//     }
+//     return combin();
+// }
+// console.log(`My Name Is : ${fulName("Farooq","Memon")}`);
+
+
+// function mulitiplay(length , width){
+//     console.log("Area is : " , length * width);
+// }
+// mulitiplay(12,3)
+
+// ************/
+
+// let value1 = +prompt("Type value 1");
+// let value2 = +prompt("Type value 2");
+
+// function sub(a , b){
+//     console.log(a - b );
+// }
+
+// // sub(4,3)
+// // sub(10,20);
+// sub(value1,value2);
+
+var a = document.querySelector("h1");
+a.innerHTML = "What is your name";
+console.log(a);
+
+a.style.color ="red";
+a.style.backgroundColor="#000";
+
+a.addEventListener("dblclick", function colorChange() {
+    a.style.backgroundColor="yellow";
+})
 
 
 
