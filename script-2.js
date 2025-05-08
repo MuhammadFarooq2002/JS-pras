@@ -87,11 +87,29 @@
 
 // ******************* /
 
-var message = "Ali and Sami are best friends. They play cricket and football together";
+// Q8 Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.
 
-let result = message.replace("Ali and Sami are best friends. They play cricket and football together", "Ali and Sami are best friends & They play cricket and football together");
+// let message = "Ali and Sami are best friends. They play cricket and football together";
 
-console.log(result);
+// let result = message.replace("Ali and Sami are best friends. They play cricket and football together", "Ali and Sami are best friends & They play cricket and football together");
+
+// console.log(result);
+
+
+// ******************* /
+
+// Q9 Write a program that converts a string “472” to a number
+// 472. Display the values & types in your browser.
+
+// let stringNumber = "657";
+
+// let converts = Number(stringNumber)
+
+// console.log(converts);
+
+
+// console.log(`${typeof stringNumber} : ${stringNumber}`);
 
 
 // ******************* /
