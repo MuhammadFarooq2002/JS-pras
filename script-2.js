@@ -86,3 +86,12 @@
 
 
 // ******************* /
+
+var message = "Ali and Sami are best friends. They play cricket and football together";
+
+let result = message.replace("Ali and Sami are best friends. They play cricket and football together", "Ali and Sami are best friends & They play cricket and football together");
+
+console.log(result);
+
+
+// ******************* /
