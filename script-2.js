@@ -113,3 +113,23 @@
 
 
 // ******************* /
+
+// Sum two number :
+
+let user = +prompt("Enter Your Number")
+
+function arr(num) {
+    if (num <= 0) {
+        throw new Error("Enter a Poaitive Number")
+    }
+    let arrString = num.toString()
+    let arrNumber = arrString.split("")
+    let sum = 0;
+    arrNumber.forEach(number => {
+        sum += parseInt(number)
+    });
+    return sum
+}
+console.log( arr(user));
+
+
