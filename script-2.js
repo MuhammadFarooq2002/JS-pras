@@ -116,20 +116,47 @@
 
 // Sum two number :
 
-let user = +prompt("Enter Your Number")
+// let user = +prompt("Enter Your Number")
 
-function arr(num) {
-    if (num <= 0) {
-        throw new Error("Enter a Poaitive Number")
-    }
-    let arrString = num.toString()
-    let arrNumber = arrString.split("")
-    let sum = 0;
-    arrNumber.forEach(number => {
-        sum += parseInt(number)
-    });
-    return sum
-}
-console.log( arr(user));
+// function arr(num) {
+//     if (num <= 0) {
+//         throw new Error("Enter a Positive Number")
+//     }
+//     let arrString = num.toString()
+//     let arrNumber = arrString.split("")
+//     let sum = 0;
+//     arrNumber.forEach(number => {
+//         sum += parseInt(number)
+//     });
+//     return sum
+// }
+// console.log(arr(user));
+
+// ******************* /
+
+// let arr = [10, 20, 30, 40, 50];
+// arr.push(60)
+// arr.forEach(function (value, index) {
+//     console.log(value + 4, index);
+
+// })
+// ******************* /
+let school = ["english", "urdu", "maths", "s.s.t", "Gernal-k", "physice", "science", "biology", "chemistry", "islamiat", "sindhi", "computer", "history", "pakistan studey"]
+// school.forEach((val , ind)=>{
+//     console.log(val , ind);
+
+// })
+
+let subject = [
+    { one: "English", two: "urdu", three: "Maths", four: "S.S.t" },
+
+    { one: "Gernal-k", two: "S.S.t", three: "physice", four: "science" },
+
+    { one: "biology", two: "chemistry", three: "Urdu", four: "islamiat" },
+
+    { one: "history", two: "Sindhi", three: "computer", four: "Maths" },
+]
+let arr = subject.map((m) => m.one.filter((n)=> n.m.one === "English"));
+console.log(arr);
 
 
