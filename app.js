@@ -32,9 +32,9 @@
 
 // console.log(`The Multiply is : ${c}`);
 
-// ******* // 
+// ******* //
 
-// Q4: 
+// Q4:
 
 
 // function check(num) {
@@ -53,18 +53,82 @@
 // let a = 10;
 // let b = 25;
 
-function twoNumber(a, b) {
-    if(a>b){
-        return a
-    }else if(b>a){
-        return b
-    }else{
-        return "Both are equal "
-    }
+// function twoNumber(a, b) {
+//     if (a > b) {
+//         return a
+//     } else if (b > a) {
+//         return b
+//     } else {
+//         return "Both are equal "
+//     }
+// }
+// console.log(twoNumber(100, 23));
+
+// ******* //
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// console.log(sum(30, 50));
+
+// ******* //
+
+// Mester Class Question And Answer with Sir Amir :-
+
+// ******* //
+
+// console.log("Hello World")
+
+// let a = " ";
+// a = Math.max(110, 120, 230, 240, -870, -1008);
+// console.log(a);
+
+// *********** //
+
+// Q Reveres String :-
+
+// var str = "My Name is Muhammad Farooq";
+
+// const reverseString = str.split("").reverse().join(" ");
+
+// console.log(reverseString);
+
+// *********** //
+
+// Q Check Karo ki yea Array Hai Yea nhi :-
+
+// function checkArray(element) {
+//     return Array.isArray(element)
+// }
+// console.log(checkArray([ 10, 20, 30, 40 ]));
+
+// *********** //
+
+// Q How to empty array in JavaScript :-
+
+// let array = [23, 56, 67, 78, 37];
+
+// array.length = 0;
+
+// console.log(array);
+
+// *********** //
+
+// Q How to would you check if a number is an integer :-
+
+// var str = prompt("Enter You Check A number")
+
+// if (str % 1 == 0) {
+//     alert`integer`;
+// } else {
+//     alert`Not !`;
+// }
+
+// *********** //
+
+// Q Make a Copy Array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+
+function copy(arr) {
+    return arr.concat(arr)
 }
-console.log(twoNumber(100, 23));
-
-
-
-// ******* // 
-
+console.log(copy([1, 2, 3, 4, 5, 6]));
