@@ -126,9 +126,22 @@
 
 // *********** //
 
-// Q Make a Copy Array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+// Q Make a Copy Array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-function copy(arr) {
-    return arr.concat(arr)
-}
-console.log(copy([1, 2, 3, 4, 5, 6]));
+// function copy(arr) {
+//     return arr.concat(arr)
+// }
+// console.log(copy([1, 2, 3, 4, 5, 6]));
+
+// *********** //
+
+// var a = 12;
+// console.log(a);
+
+// function abcd() {
+//     for (let i = 0; i < 12; i++) {
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+// abcd()

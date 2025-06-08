@@ -141,22 +141,26 @@
 
 // })
 // ******************* /
-let school = ["english", "urdu", "maths", "s.s.t", "Gernal-k", "physice", "science", "biology", "chemistry", "islamiat", "sindhi", "computer", "history", "pakistan studey"]
+// let school = ["english", "urdu", "maths", "s.s.t", "Gernal-k", "physice", "science", "biology", "chemistry", "islamiat", "sindhi", "computer", "history", "pakistan studey"]
 // school.forEach((val , ind)=>{
 //     console.log(val , ind);
 
 // })
 
-let subject = [
-    { one: "English", two: "urdu", three: "Maths", four: "S.S.t" },
+// let subject = [
+//     { one: "English", two: "urdu", three: "Maths", four: "S.S.t" },
 
-    { one: "Gernal-k", two: "S.S.t", three: "physice", four: "science" },
+//     { one: "Gernal-k", two: "S.S.t", three: "physice", four: "science" },
 
-    { one: "biology", two: "chemistry", three: "Urdu", four: "islamiat" },
+//     { one: "biology", two: "chemistry", three: "Urdu", four: "islamiat" },
 
-    { one: "history", two: "Sindhi", three: "computer", four: "Maths" },
-]
-let arr = subject.map((m) => m.one.filter((n)=> n.m.one === "English"));
-console.log(arr);
+//     { one: "history", two: "Sindhi", three: "computer", four: "Maths" },
+// ]
+// // let arr = subject.map((m) => m.one.filter((n) => n.m.one === "English"));
+// // console.log(arr);
+
+// let search = subject.map((m) => m.one.filter((n) => n.one === "English"))
+//     console.log(search);
+    
 
 

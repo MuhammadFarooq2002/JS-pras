@@ -151,16 +151,16 @@
 // }
 
 
-console.log(user.address.city);
+// console.log(user.address.city);
 
-let getName = prompt("Type your name")
+// let getName = prompt("Type your name")
 
-let person = {
-    name: getName,
-    age: 29,
-    greet: function () {
-        return "Hello , my name is " + this.name
-    }
-};
+// let person = {
+//     name: getName,
+//     age: 29,
+//     greet: function () {
+//         return "Hello , my name is " + this.name
+//     }
+// };
 
-console.log(person.greet())
+// console.log(person.greet())
