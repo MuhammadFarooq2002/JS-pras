@@ -145,3 +145,85 @@
 //     console.log(i);
 // }
 // abcd()
+
+// **************************Loops**************************** //
+
+// Q1 Print numbers 1 to 10 using a for loop. Done
+
+// Q2 Print even numbers between 1 and 20 using a while loop.
+
+// Q3 Print the multiplication table of 5 using a for loop.
+
+// Q4 Calculate the sum of numbers from 1 to 100 using a loop.
+
+// Q5 Print all elements of an array using a for loop.
+//  Example: let fruits = ["apple", "banana", "cherry"];
+
+// Q6 Reverse the elements of an array using a loop.
+//  Example: [1, 2, 3, 4] → [4, 3, 2, 1]
+
+// Ans 1:
+// for (let i = 1; i < 11; i++) {
+//     console.log(i);
+// }
+
+// Ans 2:
+
+// let evenNum = 0;
+
+// while (evenNum < 20) {
+//     evenNum += 2
+//     console.log(evenNum);
+// }
+
+// Ans 3:
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`5 x ${i}  = ${5 * i}`);
+
+// }
+
+// Ans 4:
+
+// let number = 0;
+
+// for (let i = 0; i <= 100; i++) {
+//     number += i;
+// }
+// console.log(number);
+
+// Ans 5:
+
+// let fruits = ["apple", "banana", "cherry", 'farooq'];
+
+// for (let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+
+// }
+
+// Ans 6:
+
+// let arr = [1, 2, 3, 4];
+// let result = [];
+
+// for (let i = arr.length - 1; i >= 0; i--) {
+//     result.push(arr[i])
+// }
+// console.log(result);
+
+// **************************Loops**************************** //
+var ans = new Promise((rev, rej) => {
+    if (true) {
+        return rev();
+    } else {
+        return rej();
+    }
+});
+
+ans
+    .then(function () {
+        console.log("ok");
+    })
+    .catch(function () {
+        console.log("not ok");
+    })

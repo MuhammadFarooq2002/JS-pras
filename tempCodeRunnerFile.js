@@ -836,9 +836,9 @@
 
 // Nested Function /
 
-function fullName (firstName, lastName){
-    console.log("Hello " + firstName +" "+ lastName + "!");
+// function fullName (firstName, lastName){
+//     console.log("Hello " + firstName +" "+ lastName + "!");
 
-}
+// }
 
-fullName("Muhammad","Farooq")
+// fullName("Muhammad","Farooq")
